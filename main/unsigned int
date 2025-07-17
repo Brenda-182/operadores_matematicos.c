@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+
+    //int armazena valores que vão de -2,147,483,648 a 2,147,483,647
+    //unsigned int armazena valores de 0 a 4,294,967,295
+
+    int signedNumber = 3000000000;
+    //excede limite de int, resultado negativo devido ao overflow
+
+unsigned int unsignedNumber = 3000000000;
+//Variável unsigned int é capaz de armazenar esse valor corretamente
+
+printf("Número com sinal: %d\n", signedNumber);
+printf("Número sem sinal: %u\n", unsignedNumber);
+
+     return 0;
+}
