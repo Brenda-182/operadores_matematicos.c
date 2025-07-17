@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main() {
+
+    //Capacidade de armazenamento de double é ±1.7E-308 a ±1.7E+308
+    //Capacidade  dearmazenamento de long double é ±3.4E-4932 a ±1.1E+4932
+
+    double preciseNumber = 3.141592653589793;
+    long double veryPreciseNumber = 3.14159265358979323846;
+    //Ambos armazenam valor pi mas long double tem uma precisão maior.
+ 
+    printf("Número preciso (double): %.15f\n", preciseNumber);
+    printf("Número muito preciso (long double): %.21Lf\n", veryPreciseNumber);
+ 
+    return 0;
+}
