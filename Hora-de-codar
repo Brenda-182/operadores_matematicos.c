@@ -8,7 +8,7 @@ int main (){
      printf("Digite a sua primeira nota: \n");
      scanf("%d", &nota1);
 
-     printf|("Digite a sua segunda nota: \n");
+     printf("Digite a sua segunda nota: \n");
      scanf("%d", &nota2);
 
      printf("Digite a sua terceira nota: \n");
