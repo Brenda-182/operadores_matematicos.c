@@ -12,6 +12,9 @@ int main() {
  
     bigNumber = 2147483648; // Valor maior que o máximo de int
     printf("Número grande atualizado (long int): %ld\n", bigNumber);
+
+     unsigned long int largePositiveNumber = 4000000000;
+    printf("Número positivo grande: %lu\n", largePositiveNumber);
  
     return 0;
 }
