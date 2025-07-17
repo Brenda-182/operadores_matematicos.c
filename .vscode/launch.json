@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "configurations": [
+    {
+      "name": "Executar e Depurar super-trunfo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\output\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\Users\\Silvana\\Desktop\\BrenBren\\config\\Compilador\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Compilar C (gcc no PATH)"
+    }
+  ]
+}
