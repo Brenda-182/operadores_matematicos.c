@@ -15,7 +15,8 @@ int main (){
      scanf("%d", &nota3);
 
      media = (nota1 + nota2 + nota3) / 3;
-     printf("A média é: %d\n", media);
+     printf("A média é: %d", media);
+     //se necessário casting float
 
      return 0;
 }
