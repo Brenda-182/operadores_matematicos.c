@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    float X = 5.5;
+    float Y = 2.2;
+    float soma = X + Y;
+    float diferença = X - Y;
+    float produto = X * Y;
+    float quociente = X / Y;
+
+    printf("Soma: %.2f\n", soma);
+    printf("Diferença: %.2f\n", diferença);
+    printf("Produto: %.2f\n", produto);
+    printf("Quociente: %.2f\n", quociente);
+    return 0;
+}
